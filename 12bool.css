@@ -1,0 +1,17 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col1{
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+    height: 50px;
+}
