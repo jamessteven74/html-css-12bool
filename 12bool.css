@@ -1,5 +1,5 @@
 .container{
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: 0 auto;
    
 }
@@ -7,7 +7,7 @@
 .row{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     
 }
 
@@ -15,16 +15,57 @@
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
     height: 50px;
+    margin: 1px 1px;
 }
 
 .col2{
     flex-basis: calc((100% /12) *2);
     max-width: calc((100% /12) *2);
     height: 50px;
+    margin: 1px 1px;
+    
 }
+
 
 .col5{
     flex-basis: calc((100% /12) *5);
     max-width: calc((100% /12) *5);
     height: 50px;
+    margin: 1px 1px;
+}
+
+.col{
+    flex-basis: calc((100% / 12) *12);
+    max-width: calc((100% /12) *12);
+    height: 50px;
+    margin: 1px 1px;
+}
+
+.col8{
+    flex-basis: calc((100% /12) *8);
+    max-width: calc((100% /12) *8);
+    height: 50px;
+    margin: 1px 1px;
+}
+
+.col2{
+    flex-basis: calc((100% /12) *2);
+    max-width: calc((100% /12) *2);
+    height: 50px;
+    margin: 
+}
+
+.col6{
+    flex-basis: calc((100% / 12) *6);
+    max-width: calc((100% /12)*6);
+    height: 50px;
+    margin: 1px 1px;;
+}
+
+/* #colnest */
+.col6nest{
+    flex-basis: calc((100% /12) *6);
+    max-width: calc((10%) *6);
+    height: 80px;
+    margin: 1px 1px;
 }

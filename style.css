@@ -1,3 +1,14 @@
-.col1, .col2, .col5{
+.col1, .col2, .col5, .col, .col8, .col6, .col6nest{
     background-color: blue;
+}
+
+/* #utility */
+
+.align-center{
+    text-align: center;
+    color: white;
+}
+
+.nested{
+    background-color: greenyellow;
 }
