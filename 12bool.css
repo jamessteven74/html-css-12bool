@@ -119,3 +119,52 @@
     margin: 1px 1px;
 }
 
+/* #third-container */
+
+.container3{
+    margin: 50px auto;
+}
+
+.col1.offset{
+    margin-left: calc((100% / 12) *11);
+}
+
+.col2.offset{
+    margin-left: calc((100% / 12) *10);
+}
+
+.col3.offset{
+    margin-left: calc((100% / 12) *9);
+}
+
+.col4.offset{
+    margin-left: calc((100% / 12) *8);
+}
+
+.col5.offset{
+    margin-left: calc((100% / 12) *7) ;
+}
+
+.col6.offset{
+    margin-left: calc((100% / 12) *6);
+}
+
+.col7.offset{
+    margin-left: calc((100% / 12) *5);
+}
+
+.col8.offset{
+    margin-left: calc((100% / 12) *4);
+}
+
+.col9.offset{
+    margin-left: calc((100% / 12) *3);
+}
+
+.col10.offset{
+    margin-left: calc((100% / 12) *2);
+}
+
+.col11.offset{
+    margin-left: calc((100% / 12) *1)
+}
